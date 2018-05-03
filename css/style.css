@@ -1,0 +1,90 @@
+
+
+.btn-warning {
+  color: white;
+}
+
+.carousel-item {
+  
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section {
+  padding: 220px 0;
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  text-shadow: 2px 2px 4px #000000da;
+}
+
+#logo img {
+  width: 30%;
+  height: auto;
+}
+
+#features {
+
+  background-color: rgb(226, 150, 35);  
+  color: white;
+  
+}
+
+#download {
+
+  color: white;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  -ms-transform: scale(2,2);
+  -webkit-transform: scale(2,2);
+  transform: scale(2,2);
+}
+
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#tools {
+
+  background-color: green;
+  color: white;
+}
+
+#contact {
+
+  background-color: rgb(107, 45, 119);
+  color: white;
+}
+
+.logo {
+  width:100%; /* you can use % */
+  height: auto;
+  margin: 0 auto;
+}
+
+
