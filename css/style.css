@@ -1,25 +1,35 @@
-.navbar-custom {
-  background-color: #099fc5;
+html, body {
+  margin: 0;
+  height:100%;
+  width:100%;
+  padding:0;
+}
+
+.navbar-brand
+{
+  margin-left:100px !important;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
+}
+
+.nav-link {
+  color: #FFF !important;
 }
 
 .btn-warning {
   color: white;
 }
 
-.carousel-item {
-  
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 section {
-  padding: 220px 0;
+  display: block;
+  background: #CFF;
+  height:100%;
+  width:100%;
+  padding:330px 0;
 
+  box-sizing:border-box;
 }
 
 footer {
@@ -31,21 +41,27 @@ h2 {
   text-shadow: 2px 2px 4px #000000da;
 }
 
-#logo img {
-  width: 30%;
+#logo {
+  width: 20%;
   height: auto;
+}
+
+#intro {
+
+  background-color: rgb(255, 255, 255);  
+  color: white;
 }
 
 #features {
 
   background-color: rgb(226, 150, 35);  
   color: white;
-  
 }
 
 #download {
 
   color: white;
+
 }
 
 .video-background {
@@ -75,6 +91,7 @@ h2 {
 
   background-color: green;
   color: white;
+
 }
 
 #contact {
