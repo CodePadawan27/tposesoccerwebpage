@@ -1,9 +1,4 @@
-@media (max-width: 480px) {
-  section {
-    padding:100px 0 !important;
 
-  }
-}
 
 html, body {
   margin: 0;
@@ -33,11 +28,12 @@ html, body {
 section {
   display: block;
   background: #CFF;
-  height:100%;
-  width:100%;
-  padding:330px 0;
-
+  height: 100vh;
   box-sizing:border-box;
+}
+
+.sectionpic {
+  margin-top: 120px;
 }
 
 footer {
@@ -46,10 +42,9 @@ footer {
 }
 
 h2 {
+  margin-top: 200px;
   text-shadow: 2px 2px 4px #000000da;
 }
-
-
 
 #intro {
   background-image:url("/content/pics/intro_bg.jpg");
@@ -86,12 +81,6 @@ h2 {
 
   background-color: rgb(107, 45, 119);
   color: white;
-}
-
-.logo {
-  width:100%; /* you can use % */
-  height: auto;
-  margin: 0 auto;
 }
 
 
