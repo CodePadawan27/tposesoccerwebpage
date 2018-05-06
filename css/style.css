@@ -7,6 +7,15 @@ html, body {
   padding:0;
 }
 
+a {
+  color: #FFF !important;
+}
+
+a:hover {
+  color: #FFF !important;
+}
+
+
 .navbar-brand
 {
   margin-left:100px !important;
