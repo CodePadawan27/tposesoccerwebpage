@@ -95,8 +95,8 @@ h2 {
 }
 
 #contact {
+  background-image: linear-gradient(to top , rgb(87, 39, 97), rgb(158, 65, 177));
 
-  background-color: rgb(107, 45, 119);
   color: white;
 }
 
