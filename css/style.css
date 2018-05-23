@@ -5,7 +5,18 @@
   margin-top: 120px;
 }
 @media (min-width: 768px) {
-  margin-top: 120px;
+  padding-top: 120px;
+}
+@media (max-width: 480px) {
+  .sectionpic {
+    margin-top: 50px !important;
+  }
+  h2 {
+    margin-top: 150px  !important;
+  }
+  .lead {
+    padding-top: 30px !important;
+  }
 }
 
 html, body {
