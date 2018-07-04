@@ -13,11 +13,21 @@
     margin-left: 50px !important;
     width: 65% !important;
   }
-  h2 {
-    margin-top: 150px  !important;
+
+  .row {
+    text-align: center;
   }
-  .lead {
-    padding-top: 30px !important;
+
+  h1 {
+    margin-top: 120px  !important;
+  }
+
+  #introHeading {
+    margin-top: 120px !important;
+  }
+
+  #changelog {
+    height: 220vh !important;
   }
 }
 
@@ -55,6 +65,11 @@ a:hover {
   color: white;
 }
 
+.changelogtext {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 section {
   display: block;
   background: #CFF;
@@ -71,15 +86,22 @@ section {
 footer {
   background-color: black;
   color: white;
+  height: 100px;
 }
 
-h2 {
+h1 {
   margin-top: 200px;
   text-shadow: 2px 2px 4px #000000da;
+  padding-bottom: 80px;
+}
+
+.introBubbleText {
+  text-shadow: 2px 2px 4px #000000da;
+  font-size: 20px;
 }
 
 #intro {
-  background-image:url("/content/pics/intro_bg.jpg");
+  background-image:url("/content/pics/mainscreen_background.png");
   color: white;
   background-repeat: no-repeat;
   background-size: auto;
@@ -90,16 +112,20 @@ h2 {
 }
 
 #features {
-
   background-color: rgb(226, 150, 35);  
   color: white;
 }
 
 #download {
-
   background-color: rgb(212, 93, 64);  
   color: white;
 
+}
+
+#changelog {
+  background-color: rgb(44, 44, 44);  
+  color: white;
+  height: 150vh;
 }
 
 #sourcecode {

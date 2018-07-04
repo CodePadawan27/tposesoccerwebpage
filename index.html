@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="apple-touch-icon" sizes="180x180" href="content/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="content/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="content/favicons/favicon-16x16.png">
@@ -19,153 +20,209 @@
 
 </head>
 <header>
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #097a55">
-    <a class="navbar-brand js-scroll-trigger" href="#intro">
-      <img class="img-responsive" src="/content/pics/logo_sm.png">
-    </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #097a55">
+      <a class="navbar-brand js-scroll-trigger" href="#intro">
+        <img class="img-responsive" src="/content/pics/logo_sm.png">
+      </a>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#tools">Tools</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#sourcecode">Source code</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#changelog">Changelog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sourcecode">Source code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 </header>
-  <section id="intro">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 mx-auto col text-center">
-          <h2>This is T-Pose Soccer</h2>
+<section id="intro">
+  <div class="container animated zoomIn">
+    <div class="row">
+      <div class="col-12 mx-auto col text-center" id="introHeading">
+        <h1>T-Pose Soccer</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 mx-auto">
+        <img class="img-fluid" src="content/pics/intro_1.png">
+        <p class="introBubbleText text-center">Fun</p>
+      </div>
+      <div class="col-4 mx-auto">
+        <img class="img-fluid" src="content/pics/intro_2.png">
+        <p class="introBubbleText text-center">2 players</p>
+      </div>
+      <div class="col-4 mx-auto">
+        <img class="img-fluid" src="content/pics/intro_3.png">
+        <p class="introBubbleText text-center">Blocky</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Features</h1>
+        <p class="lead">T-Pose Soccer is a classic 2-player game for PC where fun is the core of gameplay.</p>
+        <ul>
+          <li>Play with your friend with the same keyboard. What could be more fun?</li>
+          <li>Anything can happen when there are randomly generated mystery boxes around the soccer field.</li>
+          <li>You can choose how many rounds you want to play.</li>
+          <li>Endless fun!</li>
+        </ul>
+      </div>
+      <div class="d-none d-md-block col-4">
+        <img class="sectionpic" src="content/pics/blue_rez.png" alt="Visual Studio">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="download">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Download T-Pose Soccer</h1>
+        <p class="lead">T-Pose Soccer is on alpha stage currently only for Windows and is available for free to download. New features are
+          added constantly. So go ahead and download. What are you waiting for?
+        </p>
+        <div>
+          <a href="https://drive.google.com/open?id=1_d2AhF7AeDAwHYYejrFhP2U6Dji-OugD">
+            <button type="button" class="btn btn-warning">Download</button>
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="features">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-          <h2>Features</h2>
-          <p class="lead">T-Pose Soccer is a classic 2-player game for PC where fun is the core of gameplay.</p>
-          <ul>
-            <li>Play with your friend with the same keyboard. What could be more fun?</li>
-            <li>Anything can happen when there are randomly generated mystery boxes around the soccer field.</li>
-            <li>You can choose how many rounds you want to play.</li>
-            <li>Endless fun!</li>
-          </ul>
-        </div>
-        <div class="d-none d-md-block col-4">
-          <img class="sectionpic" src="content/pics/blue_rez.png" alt="Visual Studio">
-        </div>
+<section id="changelog">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Changelog</h1>
+        <div class="changelogtext">
+        <p class="lead">Changes are made and new features are added to T-Pose Soccer often. You can read about the version history here.</p>
+        <ul>
+          <p class="lead">0.5 (Summer World Cup 2018 edition)</p>
+          <li>Added speed bars to UI for both players which are limiting the player's run power.</li>
+          <li>Replaced main menu and gameplay music.</li>
+          <li>Added new sounds.</li>
+          <li>Players blink now after health losing.</li>
+          <li>Added stats system and integrated it to UI.</li>
+          <li>Added control support for gamepads.</li>
+        </ul>
+        <ul>
+          <p class="lead">0.4</p>
+          <li>Added health system for both players.</li>
+          <li>SupaBear character added and integrated it to MysteryBox gameobject.</li>
+          <li>Bulldozer character added and integrated it to MysteryBox gameobject.</li>
+          <li>Scrolling bannerboard text includes now JSON functionality. Reads location and weather info based on network connection and parses the data into 
+            scrollable text.</li>
+        </ul>
+        <ul>
+          <p class="lead">0.2</p>
+          <li>Added intro counter to match start.</li>
+          <li>Tweaked MysteryBox gameobject with new features</li>
+        </ul>
+        <ul>
+          <p class="lead">0.1</p>
+          <li>Initial release. T-Pose Soccer is born.</li>
+        </ul>
+      </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="download">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-          <h2>Download T-Pose Soccer</h2>
-          <p class="lead">T-Pose Soccer is on alpha stage currently only for Windows
-            and is available for free to download. New features are added constantly. 
-            So go ahead and download. What are you waiting for?
-          </p>
-          <div>
-            <a href="https://drive.google.com/open?id=1_d2AhF7AeDAwHYYejrFhP2U6Dji-OugD">
-              <button type="button" class="btn btn-warning">Download</button>
-            </a>
-          </div>
-        </div>
+<section id="tools">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Tools</h1>
+        <p class="lead">T-Pose Soccer is made with Unity game development platform, C# with Visual Studio 2017 and MagicaVoxel voxel art
+          editor.
+        </p>
+      </div>
+      <div class="col-sm-3 img-fluid mx-auto">
+        <img class="sectionpic" src="content/pics/toolsM.png" alt="Tools">
       </div>
     </div>
-  </section>
+  </div>
+  </div>
+</section>
 
-  <section id="tools">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-          <h2>Tools</h2>
-          <p class="lead">T-Pose Soccer is made with Unity game development platform, C# with Visual Studio 2017 and MagicaVoxel voxel art
-            editor.
-          </p>
-        </div>
-        <div class="col-sm-3 img-fluid mx-auto">
-          <img class="sectionpic" src="content/pics/toolsM.png" alt="Tools">
-        </div>
+<section id="sourcecode">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Source code</h1>
+        <p class="lead">Interested about T-Pose Soccer's source code? Check out the official GitHub repo.
+        </p>
       </div>
-    </div>
-    </div>
-  </section>
-
-  <section id="sourcecode">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-          <h2>Source code</h2>
-          <p class="lead">Interested about T-Pose Soccer's source code? Check out the official GitHub repo.
-          </p>
-        </div>
-        <div class="col-sm-3 img-fluid mx-auto">
-            <a href="https://github.com/CodePadawan27/TPoseSoccerGame">
+      <div class="col-sm-3 img-fluid mx-auto">
+        <a href="https://github.com/CodePadawan27/TPoseSoccerGame">
           <img class="sectionpic" src="content/pics/github_logo_org.png" alt="Source code">
-          </a>
-        </div>
+        </a>
       </div>
     </div>
-    </div>
-  </section>
+  </div>
+  </div>
+</section>
 
-  <section id="contact">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 mx-auto">
-          <h2>Contact</h2>
-          <p class="lead">Contact me via
-            <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/">LinkedIn!</p>
-          </a>
-        </div>
-        <div class="col-sm-3 img-fluid mx-auto">
-          <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/">
-            <img class="img-fluid sectionpic" src="content/pics/linkedin.png" alt="LinkedIn">
-          </a>
-        </div>
+<section id="contact">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 mx-auto">
+        <h1>Contact</h1>
+        <p class="lead">Contact me via
+          <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/">LinkedIn!</p>
+        </a>
+      </div>
+      <div class="col-sm-3 img-fluid mx-auto">
+        <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/">
+          <img class="img-fluid sectionpic" src="content/pics/linkedin.png" alt="LinkedIn">
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 
-  <footer>
-    <div class="footer-copyright py-3 text-center bg-dark">
-      © 2018 Copyright:
-      <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/"> Jarno Rostedt</a>
-    </div>
-  </footer>
+<footer>
+  <div class="py-3 text-center">
+    © 2018 Copyright:
+    <a href="https://www.linkedin.com/in/jarno-rostedt-0b8014131/"> Jarno Rostedt</a>
+  </div>
+</footer>
 
 
-  <script src="scripts/jquery-3.3.1.min.js"></script>
-  <script src="scripts/bootstrap.bundle.min.js"></script>
-  <script src="scripts/jquery.easing.1.3.js"></script>
-  <script src="scripts/scrolling-nav.js"></script>
+<script src="scripts/jquery-3.3.1.min.js"></script>
+<script src="scripts/bootstrap.bundle.min.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/scrolling-nav.js"></script>
 
 
 </body>
