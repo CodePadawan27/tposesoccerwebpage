@@ -1,13 +1,21 @@
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   margin-top: 300px;
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   margin-top: 120px;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   padding-top: 120px;
 }
-@media (max-width: 480px) {
+
+@media screen and (max-width: 480px) {
+  .navbar-toggler, .navbar-collapse {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
   .sectionpic {
     margin-top: 25px !important;
     margin-left: 50px !important;
